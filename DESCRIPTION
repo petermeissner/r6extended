@@ -1,0 +1,24 @@
+Package: r6extended
+Type: Package
+Title: Extension for 'R6' base Classes
+Version: 0.1.0
+Authors@R: person("First", "Last", email = "retep.meissner@gmail.com", role = c("aut", "cre"))
+Description: A package that adds some useful methods and data fields to the
+             bare bones 'R6' class provided by the 'R6' package.
+License: MIT + file LICENSE
+Depends:
+    R (>= 3.0.0)
+License: MIT + file LICENSE
+LazyData: TRUE
+Imports:
+    R6 (>= 2.1.2),
+    magrittr (>= 1.5),
+    digest (>= 0.6.9),
+    hellno (>= 0.0.1)
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+BugReports: https://github.com/petermeissner/r6extended/issues
+URL: https://github.com/petermeissner/r6extended
+RoxygenNote: 5.0.1

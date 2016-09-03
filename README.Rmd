@@ -1,0 +1,96 @@
+---
+output: github_document
+---
+
+
+<br><br>
+**Status**
+
+*getting stable*
+
+[![Travis-CI Build Status](https://travis-ci.org/petermeissner/r6extended.svg?branch=master)](https://travis-ci.org/petermeissner/r6extended)
+[![codecov](https://codecov.io/gh/petermeissner/r6extended/branch/master/graph/badge.svg)](https://codecov.io/gh/petermeissner/r6extended/tree/master/R)
+[![CRAN version](http://www.r-pkg.org/badges/version/r6extended)](https://cran.r-project.org/package=r6extended)
+
+
+```{r, include=FALSE}
+options("width"=108)
+pkg  <- basename(getwd())
+tmp  <- packageDescription(pkg)
+date <- as.Date(file.info("R")$mtime)
+```
+
+```{r, results='asis', echo=FALSE}
+cat("#", tmp$Title)
+```
+
+
+
+<br><br>
+**Version**
+
+```{r, results='asis', echo=FALSE}
+cat(tmp$Version, "<br>\n", as.character(date))  
+```
+
+
+<br><br>
+**Description**
+
+```{r, results='asis', echo=FALSE}
+cat(tmp$Description)
+```
+
+
+<br><br>
+**License**
+
+```{r, results='asis', echo=FALSE}
+cat(tmp$License, "<br>")
+cat(tmp$Author)
+```
+
+
+<br><br>
+**Citation**
+
+
+```{r, results='asis', echo=FALSE}
+citation(pkg)
+```
+
+<br><br>
+**BibTex for citing**
+
+<code style="white-space:normal;">
+```{r, results='asis', echo=FALSE}
+toBibtex(citation(pkg))
+```
+</code>
+
+
+
+<br><br>
+**Installation**
+
+
+(stable) development version
+
+```{r, eval=FALSE}
+install.packages("r6extended",   repos="https://petermeissner.github.io/drat")    
+```
+
+
+    
+
+<br><br>
+**Example Usage**
+
+<br><br>
+*... starting up ...*
+
+```{r}
+library(r6extended)
+```
+
+
