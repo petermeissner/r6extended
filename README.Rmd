@@ -6,11 +6,6 @@ output: github_document
 <br><br>
 **Status**
 
-*getting stable*
-
-[![Travis-CI Build Status](https://travis-ci.org/petermeissner/r6extended.svg?branch=master)](https://travis-ci.org/petermeissner/r6extended)
-[![codecov](https://codecov.io/gh/petermeissner/r6extended/branch/master/graph/badge.svg)](https://codecov.io/gh/petermeissner/r6extended/tree/master/R)
-[![CRAN version](http://www.r-pkg.org/badges/version/r6extended)](https://cran.r-project.org/package=r6extended)
 
 
 ```{r, include=FALSE}
@@ -87,10 +82,53 @@ install.packages("r6extended",   repos="https://petermeissner.github.io/drat")
 **Example Usage**
 
 <br><br>
-*... starting up ...*
+***... starting up ...***
 
 ```{r}
 library(r6extended)
+```
+
+
+***new instance***
+```{r}
+ext <- r6extended$new()
+```
+
+
+***whats there?***
+```{r}
+ext$ls()
+```
+
+
+***getting things (wherever they are, also private stuff)***
+```{r}
+ext$get("options")
+ext$get("hashes")
+```
+
+
+***messages***
+```{r}
+ext$message("Please note ...")
+ext$options$verbose <- FALSE
+ext$message("Please note ...")
+```
+
+
+***build in hashing***
+```{r}
+ext$hash_do()
+ext$hash_get("options")
+```
+
+
+***debugging***
+```{r}
+ext$debug()
+
+private$hash()
+self$ls()
 ```
 
 

@@ -213,8 +213,14 @@ r6extended <-
 
 
       #### [ hash_get ] #### ...................................................
-      hash_get = function(name=""){
+      hash_get = function(name=NULL){
         private$hashed(name)
+      },
+
+      #### [ hash_do ] #### ...................................................
+      hash_do = function(name=NULL){
+        private$hash(name)
+        return(invisible(self))
       }
 
   )
