@@ -1,6 +1,8 @@
 
 <br><br> **Status**
 
+[![Travis-CI Build Status](https://travis-ci.org/petermeissner/r6extended.svg?branch=master)](https://travis-ci.org/petermeissner/r6extended) [![codecov](https://codecov.io/gh/petermeissner/r6extended/branch/master/graph/badge.svg)](https://codecov.io/gh/petermeissner/r6extended/tree/master/R) [![CRAN version](http://www.r-pkg.org/badges/version/r6extended)](https://cran.r-project.org/package=r6extended)
+
 Extension for 'R6' base Classes
 ===============================
 
