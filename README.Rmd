@@ -72,10 +72,14 @@ toBibtex(citation(pkg))
 **Installation**
 
 
-(stable) development version
+stable version from CRAN
 
 ```{r, eval=FALSE}
-install.packages("r6extended",   repos="https://petermeissner.github.io/drat")    
+install.packages("r6extended")
+```
+
+```{r, eval=FALSE}
+devtools::install_github("petermeissner/r6extended")
 ```
 
 

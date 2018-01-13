@@ -6,3 +6,4 @@ README_files
 dev.R
 benchmarks
 
+^cran-comments\.md$

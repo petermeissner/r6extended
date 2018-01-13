@@ -1,11 +1,13 @@
 Package: r6extended
 Type: Package
 Date: 2018-01-13
-Title: Extension for 'R6' base Classes
+Title: Extension for 'R6' Base Class
 Version: 0.1.1
 Authors@R: person("Peter", "Meissner", email = "retep.meissner@gmail.com", role = c("aut", "cre"))
 Description: A package that adds some useful methods and data fields to the
-             bare bones 'R6' class provided by the 'R6' package.
+             bare bones 'R6' class provided by the 'R6' package - ls-method, 
+             hashes, warning- and message-method, general get-method and a 
+             debug-method that assigns self and private to the global environment.
 License: MIT + file LICENSE
 Depends:
     R (>= 3.0.0)

@@ -3,8 +3,8 @@
 
 [![Travis-CI Build Status](https://travis-ci.org/petermeissner/r6extended.svg?branch=master)](https://travis-ci.org/petermeissner/r6extended) [![codecov](https://codecov.io/gh/petermeissner/r6extended/branch/master/graph/badge.svg)](https://codecov.io/gh/petermeissner/r6extended/tree/master/R) [![CRAN version](http://www.r-pkg.org/badges/version/r6extended)](https://cran.r-project.org/package=r6extended)
 
-Extension for 'R6' base Classes
-===============================
+Extension for 'R6' Base Class
+=============================
 
 <br><br> **Version**
 
@@ -12,7 +12,7 @@ Extension for 'R6' base Classes
 
 <br><br> **Description**
 
-A package that adds some useful methods and data fields to the bare bones 'R6' class provided by the 'R6' package.
+A package that adds some useful methods and data fields to the bare bones 'R6' class provided by the 'R6' package - ls-method, hashes, warning- and message-method, general get-method and a debug-method that assigns self and private to the glbal environment.
 
 <br><br> **License**
 
@@ -22,22 +22,26 @@ MIT + file LICENSE <br>Peter Meissner \[aut, cre\]
 
 To cite package 'r6extended' in publications use:
 
-Peter Meissner (2018). r6extended: Extension for 'R6' base Classes. R package version 0.1.1. <https://github.com/petermeissner/r6extended>
+Peter Meissner (2018). r6extended: Extension for 'R6' Base Class. R package version 0.1.1. <https://github.com/petermeissner/r6extended>
 
 A BibTeX entry for LaTeX users is
 
-@Manual{, title = {r6extended: Extension for 'R6' base Classes}, author = {Peter Meissner}, year = {2018}, note = {R package version 0.1.1}, url = {<https://github.com/petermeissner/r6extended>}, }
+@Manual{, title = {r6extended: Extension for 'R6' Base Class}, author = {Peter Meissner}, year = {2018}, note = {R package version 0.1.1}, url = {<https://github.com/petermeissner/r6extended>}, }
 
 <br><br> **BibTex for citing**
 
-<code style="white-space:normal;"> @Manual{, title = {r6extended: Extension for 'R6' base Classes}, author = {Peter Meissner}, year = {2018}, note = {R package version 0.1.1}, url = {<https://github.com/petermeissner/r6extended>}, } </code>
+<code style="white-space:normal;"> @Manual{, title = {r6extended: Extension for 'R6' Base Class}, author = {Peter Meissner}, year = {2018}, note = {R package version 0.1.1}, url = {<https://github.com/petermeissner/r6extended>}, } </code>
 
 <br><br> **Installation**
 
-(stable) development version
+stable version from CRAN
 
 ``` r
-install.packages("r6extended",   repos="https://petermeissner.github.io/drat")    
+install.packages("r6extended")
+```
+
+``` r
+devtools::install_github("petermeissner/r6extended")
 ```
 
 <br><br> **Example Usage**
@@ -123,37 +127,37 @@ private$hash()
 ```
 
     ## $hash
-    ## [1] "2458a1c0a48c95e4"
+    ## [1] "21a6f7949674d411"
     ## 
     ## $hashed
-    ## [1] "7e94c1969b26af7b"
+    ## [1] "d8f0ea54a405fd40"
     ## 
     ## $hashes
-    ## [1] "9a00a30fd3c93d36"
+    ## [1] "be5d004a2532ca93"
     ## 
     ## $clone
-    ## [1] "8d0dfb5eb8e39136"
+    ## [1] "ce34640aec250b6b"
     ## 
     ## $debug
-    ## [1] "b43cc3abe205fe2b"
+    ## [1] "98376c9a2ffec01b"
     ## 
     ## $get
-    ## [1] "cdc7ef75c6f4fc79"
+    ## [1] "70fe789f7d67e0e1"
     ## 
     ## $hash_do
-    ## [1] "298f4eee3f74d1c8"
+    ## [1] "74dac0de02bd7c70"
     ## 
     ## $hash_get
-    ## [1] "b078c8b86741e26f"
+    ## [1] "d19a97ff0e5e600e"
     ## 
     ## $ls
-    ## [1] "e017fb3f181d6a9d"
+    ## [1] "582b459536b42b4a"
     ## 
     ## $message
-    ## [1] "f595531aa218020b"
+    ## [1] "331e1d0773f2f519"
     ## 
     ## $warning
-    ## [1] "406ef84005d1d8c3"
+    ## [1] "748aeda6db227735"
     ## 
     ## $options
     ## [1] "feb524178c59d96d"
