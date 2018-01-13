@@ -12,7 +12,7 @@ Extension for 'R6' Base Class
 
 <br><br> **Description**
 
-A package that adds some useful methods and data fields to the bare bones 'R6' class provided by the 'R6' package - ls-method, hashes, warning- and message-method, general get-method and a debug-method that assigns self and private to the glbal environment.
+A package that adds some useful methods and data fields to the bare bones 'R6' class provided by the 'R6' package - ls-method, hashes, warning- and message-method, general get-method and a debug-method that assigns self and private to the global environment.
 
 <br><br> **License**
 
@@ -127,37 +127,37 @@ private$hash()
 ```
 
     ## $hash
-    ## [1] "21a6f7949674d411"
+    ## [1] "17ffb32ae9c76ae5"
     ## 
     ## $hashed
-    ## [1] "d8f0ea54a405fd40"
+    ## [1] "ccea09b758d96a29"
     ## 
     ## $hashes
-    ## [1] "be5d004a2532ca93"
+    ## [1] "599528a08e001b47"
     ## 
     ## $clone
-    ## [1] "ce34640aec250b6b"
+    ## [1] "3152289c186555e4"
     ## 
     ## $debug
-    ## [1] "98376c9a2ffec01b"
+    ## [1] "5c0b2addb8488d81"
     ## 
     ## $get
-    ## [1] "70fe789f7d67e0e1"
+    ## [1] "61ad996a97ef1a41"
     ## 
     ## $hash_do
-    ## [1] "74dac0de02bd7c70"
+    ## [1] "c15c34743236a74b"
     ## 
     ## $hash_get
-    ## [1] "d19a97ff0e5e600e"
+    ## [1] "8ac5e4f762382693"
     ## 
     ## $ls
-    ## [1] "582b459536b42b4a"
+    ## [1] "75749a4833c55a75"
     ## 
     ## $message
-    ## [1] "331e1d0773f2f519"
+    ## [1] "3d8cc32f2770501a"
     ## 
     ## $warning
-    ## [1] "748aeda6db227735"
+    ## [1] "7aff90c92378a451"
     ## 
     ## $options
     ## [1] "feb524178c59d96d"
