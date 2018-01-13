@@ -20,7 +20,8 @@ Imports:
 Suggests:
     testthat,
     knitr,
-    rmarkdown
+    rmarkdown,
+    covr
 BugReports: https://github.com/petermeissner/r6extended/issues
 URL: https://github.com/petermeissner/r6extended
 RoxygenNote: 6.0.1

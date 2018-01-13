@@ -7,3 +7,4 @@ dev.R
 benchmarks
 
 ^cran-comments\.md$
+^codecov\.yml$
