@@ -15,4 +15,3 @@ Object of \code{\link{R6Class}}
 extended R6 class
 }
 \keyword{data}
-

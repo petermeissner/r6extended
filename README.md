@@ -8,7 +8,7 @@ Extension for 'R6' base Classes
 
 <br><br> **Version**
 
-0.1.0 <br> 2016-09-03
+0.1.1 <br> 2018-01-13
 
 <br><br> **Description**
 
@@ -22,15 +22,15 @@ MIT + file LICENSE <br>Peter Meissner \[aut, cre\]
 
 To cite package 'r6extended' in publications use:
 
-Peter Meissner (2016). r6extended: Extension for 'R6' base Classes. R package version 0.1.0. <https://github.com/petermeissner/r6extended>
+Peter Meissner (2018). r6extended: Extension for 'R6' base Classes. R package version 0.1.1. <https://github.com/petermeissner/r6extended>
 
 A BibTeX entry for LaTeX users is
 
-@Manual{, title = {r6extended: Extension for 'R6' base Classes}, author = {Peter Meissner}, year = {2016}, note = {R package version 0.1.0}, url = {<https://github.com/petermeissner/r6extended>}, }
+@Manual{, title = {r6extended: Extension for 'R6' base Classes}, author = {Peter Meissner}, year = {2018}, note = {R package version 0.1.1}, url = {<https://github.com/petermeissner/r6extended>}, }
 
 <br><br> **BibTex for citing**
 
-<code style="white-space:normal;"> @Manual{, title = {r6extended: Extension for 'R6' base Classes}, author = {Peter Meissner}, year = {2016}, note = {R package version 0.1.0}, url = {<https://github.com/petermeissner/r6extended>}, } </code>
+<code style="white-space:normal;"> @Manual{, title = {r6extended: Extension for 'R6' base Classes}, author = {Peter Meissner}, year = {2018}, note = {R package version 0.1.1}, url = {<https://github.com/petermeissner/r6extended>}, } </code>
 
 <br><br> **Installation**
 
@@ -123,37 +123,37 @@ private$hash()
 ```
 
     ## $hash
-    ## [1] "4d0a82b301b2c0bc"
+    ## [1] "2458a1c0a48c95e4"
     ## 
     ## $hashed
-    ## [1] "a711ef1dae6683aa"
+    ## [1] "7e94c1969b26af7b"
     ## 
     ## $hashes
-    ## [1] "05ba9082acdc7f51"
+    ## [1] "9a00a30fd3c93d36"
     ## 
     ## $clone
-    ## [1] "dc64f26d2331b344"
+    ## [1] "8d0dfb5eb8e39136"
     ## 
     ## $debug
-    ## [1] "30d5b5a92de88c49"
+    ## [1] "b43cc3abe205fe2b"
     ## 
     ## $get
-    ## [1] "29d147905661ecc4"
+    ## [1] "cdc7ef75c6f4fc79"
     ## 
     ## $hash_do
-    ## [1] "6916ad4b7eb8ed2d"
+    ## [1] "298f4eee3f74d1c8"
     ## 
     ## $hash_get
-    ## [1] "dc9f1a00e8d6c487"
+    ## [1] "b078c8b86741e26f"
     ## 
     ## $ls
-    ## [1] "d4d6c9fea7054c10"
+    ## [1] "e017fb3f181d6a9d"
     ## 
     ## $message
-    ## [1] "244fc2b7b6f39cee"
+    ## [1] "f595531aa218020b"
     ## 
     ## $warning
-    ## [1] "d82885c9abf6a216"
+    ## [1] "406ef84005d1d8c3"
     ## 
     ## $options
     ## [1] "feb524178c59d96d"

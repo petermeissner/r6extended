@@ -18,9 +18,10 @@ r6extended <-
 
 
     #### class name ============================================================
-    "r6extended",
+    classname = "r6extended",
 
-
+    #### parent environment ====================================================
+    parent_env = asNamespace('r6extended'),
 
     #### private ===============================================================
     private = list(

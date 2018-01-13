@@ -13,4 +13,3 @@ r6e_hash(x)
 function to get hash for R objects
 }
 \keyword{internal}
-

@@ -8,5 +8,4 @@ NULL
 #' @rdname pipe
 #' @keywords internal
 #' @export
-#' @importFrom magrittr %>%
 NULL
