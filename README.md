@@ -1,18 +1,24 @@
 
 <br><br> **Status**
 
-[![Travis-CI Build Status](https://travis-ci.org/petermeissner/r6extended.svg?branch=master)](https://travis-ci.org/petermeissner/r6extended) [![codecov](https://codecov.io/gh/petermeissner/r6extended/branch/master/graph/badge.svg)](https://codecov.io/gh/petermeissner/r6extended/tree/master/R) [![CRAN version](http://www.r-pkg.org/badges/version/r6extended)](https://cran.r-project.org/package=r6extended)
+[![Travis-CI Build
+Status](https://travis-ci.org/petermeissner/r6extended.svg?branch=master)](https://travis-ci.org/petermeissner/r6extended)
+[![codecov](https://codecov.io/gh/petermeissner/r6extended/branch/master/graph/badge.svg)](https://codecov.io/gh/petermeissner/r6extended/tree/master/R)
+[![CRAN
+version](http://www.r-pkg.org/badges/version/r6extended)](https://cran.r-project.org/package=r6extended)
 
-Extension for 'R6' Base Class
-=============================
+# Extension for ‘R6’ Base Class
 
 <br><br> **Version**
 
-0.1.1 <br> 2018-01-13
+0.1.2 <br> 2018-01-14
 
 <br><br> **Description**
 
-Useful methods and data fields to extend the bare bones 'R6' class provided by the 'R6' package - ls-method, hashes, warning- and message-method, general get-method and a debug-method that assigns self and private to the global environment.
+Useful methods and data fields to extend the bare bones ‘R6’ class
+provided by the ‘R6’ package - ls-method, hashes, warning- and
+message-method, general get-method and a debug-method that assigns self
+and private to the global environment.
 
 <br><br> **License**
 
@@ -20,17 +26,23 @@ MIT + file LICENSE <br>Peter Meissner \[aut, cre\]
 
 <br><br> **Citation**
 
-To cite package 'r6extended' in publications use:
+To cite package ‘r6extended’ in publications use:
 
-Peter Meissner (2018). r6extended: Extension for 'R6' Base Class. R package version 0.1.1. <https://github.com/petermeissner/r6extended>
+Peter Meissner (2019). r6extended: Extension for ‘R6’ Base Class. R
+package version 0.1.2. <https://github.com/petermeissner/r6extended>
 
 A BibTeX entry for LaTeX users is
 
-@Manual{, title = {r6extended: Extension for 'R6' Base Class}, author = {Peter Meissner}, year = {2018}, note = {R package version 0.1.1}, url = {<https://github.com/petermeissner/r6extended>}, }
+@Manual{, title = {r6extended: Extension for ‘R6’ Base Class}, author =
+{Peter Meissner}, year = {2019}, note = {R package version 0.1.2}, url =
+{<https://github.com/petermeissner/r6extended>}, }
 
 <br><br> **BibTex for citing**
 
-<code style="white-space:normal;"> @Manual{, title = {r6extended: Extension for 'R6' Base Class}, author = {Peter Meissner}, year = {2018}, note = {R package version 0.1.1}, url = {<https://github.com/petermeissner/r6extended>}, } </code>
+<code style="white-space:normal;"> @Manual{, title = {r6extended:
+Extension for ‘R6’ Base Class}, author = {Peter Meissner}, year =
+{2019}, note = {R package version 0.1.2}, url =
+{<https://github.com/petermeissner/r6extended>}, } </code>
 
 <br><br> **Installation**
 
@@ -46,7 +58,7 @@ devtools::install_github("petermeissner/r6extended")
 
 <br><br> **Example Usage**
 
-<br><br> ***... starting up ...***
+<br><br> ***… starting up …***
 
 ``` r
 library(r6extended)
@@ -127,37 +139,37 @@ private$hash()
 ```
 
     ## $hash
-    ## [1] "42078a201f5e24a5"
+    ## [1] "a2145d8a65aed2fd"
     ## 
     ## $hashed
-    ## [1] "d5ca4f787e0a277f"
+    ## [1] "6ddac4b4cd8556db"
     ## 
     ## $hashes
-    ## [1] "567e62ae3bc0e44c"
+    ## [1] "192f75af59696813"
     ## 
     ## $clone
-    ## [1] "67a8a922d6ccd800"
+    ## [1] "11f7a5b9d5763be9"
     ## 
     ## $debug
-    ## [1] "e819bf58e0805ebd"
+    ## [1] "3f1f72468b467261"
     ## 
     ## $get
-    ## [1] "060d28eb014cd69a"
+    ## [1] "31fd6f69e480adaa"
     ## 
     ## $hash_do
-    ## [1] "70ff4316a3b558ae"
+    ## [1] "236b962b10c0eb01"
     ## 
     ## $hash_get
-    ## [1] "2a51cba60cbca45f"
+    ## [1] "bdc96d1de6eea991"
     ## 
     ## $ls
-    ## [1] "7e20b2042d838c4c"
+    ## [1] "d18ce6a302986879"
     ## 
     ## $message
-    ## [1] "bee0bc8b45c29d04"
+    ## [1] "0eb0aed48eca3590"
     ## 
     ## $warning
-    ## [1] "ca5ab19c41b317a6"
+    ## [1] "c30df76f92169fbd"
     ## 
     ## $options
     ## [1] "feb524178c59d96d"
