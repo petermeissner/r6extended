@@ -1,8 +1,8 @@
 Package: r6extended
 Type: Package
-Date: 2018-01-13
+Date: 2019-02-09
 Title: Extension for 'R6' Base Class
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: person("Peter", "Meissner", email = "retep.meissner@gmail.com", role = c("aut", "cre"))
 Description: Useful methods and data fields to extend the
              bare bones 'R6' class provided by the 'R6' package - ls-method, 
