@@ -1,13 +1,21 @@
-## Re-submission
+## Package Update
 
-your complaints: "please add small executable examples in your Rd-files."
+your complaints: "These have LICENSE files with entries
+
+  COPYRIGHT HOLDER: Your name goes here
+
+which clearly need to be replaced by the real names.
+
+Pls fix asap, and before 2019-01-28 to safely retain your package on
+CRAN."
+
 --> done 
 
 
-## Test environments
+## Test Environments
 
-* local Mint 18.3 (Ubuntu 16.10 based), R 3.4.3
-* Ubuntu 14.04 (on travis-ci), R 3.4.3
+* local Windows10, R 3.5.2
+* Ubuntu 14.04 (on travis-ci), R 3.5.2
 * Win-builder (devel and release)
 
 
